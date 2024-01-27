@@ -1,0 +1,430 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) repeat 0 0 #fff;
+  }
+  
+  h1 {
+    background: gray;
+    color: #fff;
+    text-align: center ;
+    margin: 0 0 5% 0;
+    padding: 0.5em;
+    margin: 0 0 5% 0;
+  }
+
+  .container{
+        width: 80%;
+        padding: 45px 20px;
+        margin: auto;
+        margin-top: 5px;
+        text-align: justify;
+        color: transparent;
+  }
+
+  .texto{
+    font-size: 1.2em;
+    color: black;
+}
+  
+  .cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+
+  .cardBox:hover .card {
+    transform: rotateY( 180deg);
+  }
+  
+  .card {
+    background-image: url("https://i.pinimg.com/564x/b4/c4/95/b4c495c800c971df4a9c7fae7ee30ed7.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+  
+  .card p {
+    margin-bottom: 1.8em;
+    text-align: justify;
+  }
+  
+  .card .front,
+  .card .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.2em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card .back {
+    transform: rotateY( 180deg);
+  }
+  
+  
+  .card .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
+  
+  .cardBox:nth-child(1) .card .back {
+    background: black;
+  }
+  
+  .cardBox:nth-child(2) .card {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  
+  .cardBox:nth-child(3) .card {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+  }
+  
+  .cardBox:nth-child(4) .card {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+  }
+
+  .cardBox2 {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+
+  .cardBox2:hover .card2 {
+    transform: rotateY( 180deg);
+  }
+
+  .card2 {
+    background-image: url("https://i.pinimg.com/564x/ad/de/f4/addef4ddcf87cf8dd5147fd72f6d9310.jpg");
+    background-size:cover;
+    background-position: top center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+
+  .card2 p {
+    margin-bottom: 1.8em;
+    text-align: justify;
+  }
+  
+  .card2 .front,
+  .card2 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card2 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card2 .back {
+    transform: rotateY( 180deg);
+  }
+  
+  
+  .card2 .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
+
+  .cardBox2:nth-child(2) .card2 .back {
+    background: black;
+  }
+
+  .cardBox3 {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+
+  .cardBox3:hover .card3 {
+    transform: rotateY( 180deg);
+  }
+
+  .card3 {
+    background-image: url("https://i.pinimg.com/564x/87/12/d3/8712d358d7eb798f14da64dfaae889c6.jpg");
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+
+  .card3 p {
+    margin-bottom: 1.8em;
+    text-align: justify;
+  }
+  
+  .card3 .front,
+  .card3 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card3 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card3 .back {
+    transform: rotateY( 180deg);
+  }
+  
+  
+  .card3 .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
+
+  .cardBox3:nth-child(3) .card3 .back {
+    background: black;
+  }
+  
+  .cardBox4 {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+
+  .cardBox4:hover .card4 {
+    transform: rotateY( 180deg);
+  }
+
+  .card4 {
+    background-image: url("https://i.pinimg.com/564x/dc/5b/2e/dc5b2ea7503dc8393eeffd6834d12f91.jpg");
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+
+  .card4 p {
+    margin-bottom: 1.8em;
+    text-align: justify;
+  }
+  
+  .card4 .front,
+  .card4 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card4 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card4 .back {
+    transform: rotateY( 180deg);
+  }
+  
+  
+  .card4 .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
+
+  .cardBox4:nth-child(4) .card4 .back {
+    background: black;
+  }
+
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .cardBox2 {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 46%;
+      }
+    .cardBox3 {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 46%;
+      }
+    .cardBox4 {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 46%;
+      }
+    .card {
+      height: 285px;
+    }
+    .card2 {
+        height: 285px;
+      }
+    .card3 {
+        height: 285px;
+      }
+    .card4 {
+        height: 285px;
+      }
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+    .cardBox2:last-child {
+        margin-bottom: 3%;
+      }
+    .cardBox3:last-child {
+        margin-bottom: 3%;
+      }
+    .cardBox4:last-child {
+        margin-bottom: 3%;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cardBox {
+      width: 94.5%;
+    }
+    .cardBox2 {
+        width: 94.5%;
+      }
+    .cardBox3 {
+        width: 94.5%;
+      }
+    .cardBox4 {
+        width: 94.5%;
+      }
+    .card {
+      height: 260px;
+    }
+    .card2 {
+        height: 260px;
+      }
+    .card3 {
+        height: 260px;
+      }
+    .card4 {
+        height: 260px;
+      }
+  }
